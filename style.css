@@ -1,0 +1,227 @@
+
+/*Zerando CSS */
+body {
+    font-family: 'Oswald';
+    padding: 0;
+    margin:0;
+    background-color: #15161b;
+}
+
+header {
+display: flex;
+justify-content: center;
+}
+/*Titulo*/
+.logo h2 {
+    font-size: 30px;
+    color: #fff;
+    cursor:pointer;
+}
+
+.logo span {
+    color: #ff2600;   
+}
+/*Imagem 1*/
+.image1 img {
+ width: 460px;
+ height: auto;
+ margin-top: 20px;
+ margin-left: 55px;
+ cursor:pointer;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+/*Area do h1 e h3*/
+.area-title h3 {
+    color: #fff;
+    font-weight: normal;
+    cursor: pointer;
+}
+.area-title h1 {
+    font-size: 45px;
+    line-height: 50px;
+    margin-top: -16px;
+    color: #fff;
+    cursor: pointer;
+}
+.area-title a {
+display: inline-block;
+background-color: #da1717;
+padding: 15px 60px;
+font-size: 20px;
+cursor: pointer;
+transform: 2ms ease-in;
+position: relative;
+}
+.area-title a:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0px;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    transition: all 1.5s ease;
+}
+.area-title a:hover:before {
+    width: 100%;
+}
+/*AREA CARDS */
+
+.section-cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+   }
+   .section-cards h2 {
+       color: #fff;
+       text-transform: uppercase;
+       font-size: 22px;
+   }
+   .cards {
+       display: flex;
+       flex-direction: row;
+       margin-top: 50px;
+   }
+   .card {
+       background-color:#2C2F37;
+       width: 200px;
+       height: 180px;
+       margin-left: 25px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       color: #fff;
+   }
+   .card:hover {
+background-color:#da1717;
+transition: 0.3s all;
+cursor: pointer;
+ }
+
+   .card img {
+       width: 65px;
+   }
+
+   /*SECTION-3*/
+
+   .section-3 {
+    background-color:#da1717;
+    height:342px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    cursor: pointer;
+    transition-delay: 0ms;
+   }
+
+.area-title-2 h1{
+    cursor: pointer;
+font-size: 35px;
+color:#fff
+}
+.area-title-2 h3 {
+    cursor: pointer;
+    margin-top: -26px;
+    font-weight: normal;
+    font-size: 20px;
+    color:#fff
+}
+.area-title-2 a {
+    cursor: pointer;
+    display:inline-block;
+    background-color:#fff;
+    padding: 20px 85px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+   .image2 img {
+       cursor: pointer;
+width: 280px;
+height: auto;
+margin-top: 5px;
+margin-left: 100px;
+}
+.area-title-2 a:hover {
+    background-color: rgba(241, 224, 224, 0.863);
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+.area-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    flex-direction:column;
+}
+
+.area-form h2 {
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+.form form{
+    display: flex;
+    flex-direction: column; 
+    width: 400px;
+    height: 300px;
+}
+.form input{
+margin-top: 20px;
+padding-left: 10px;
+height: 40px;
+border:none;
+outline: none;
+font-family: 'Oswald';
+}
+
+input::placeholder {
+    color: #000;
+    text-transform: uppercase;
+}
+input[type="submit"] {
+    height: 55px;
+    background-color: #da1717;
+    text-transform: uppercase;
+    font-size: 20px;
+    color:#fff
+}
+input[type="submit"]:hover{
+background-color: rgb(88, 20, 14);
+transition: 0.4s all;
+cursor: pointer;
+}
+
+
+footer {
+    margin-top: 100px;
+}
+
+
+.social h3 {
+    font-weight: normal;
+    color:#fff
+}
+.social img {
+width: 30px;
+margin-left: 15px;
+}
+
+
+   
+  
+   
